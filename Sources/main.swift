@@ -26,6 +26,7 @@ let server = HTTPServer()
 
 // Create the container variable for routes to be added to.
 var routes = Routes()
+let pack = PackageDetails()
 
 // Register your own routes and handlers
 // This is an example "Hello, world!" HTML route
@@ -41,46 +42,58 @@ routes.add(method: .get, uri: "/", handler: {
 )
 
 
-// Adding a route to handle the GET people list URL
-routes.add(method: .get, uri: "/api/v1/people", handler: {
+// Adding a route to handle the GET PackageDetails list URL
+routes.add(method: .get, uri: "/api/v1/PackageDetails", handler: {
 	request, response in
 
-	let people = People()
+	let PackageDetail = PackageDetails()
 
 	// Setting the response content type explicitly to application/json
 	response.setHeader(.contentType, value: "application/json")
 	// Setting the body response to the JSON list generated
-	response.appendBody(string: people.list())
+	response.appendBody(string: pack.list())
 	// Signalling that the request is completed
 	response.completed()
 	}
 )
-
-// Adding a route to handle the POST people add URL, with post body params
-routes.add(method: .post, uri: "/api/v1/people", handler: {
+routes.add(method: .get, uri: "/{id}") { (request, response) in
+    
+    guard let id = request.urlVariables["id"] else{
+        response.status = .badGateway
+        return
+    }
+    response.setHeader(.contentType, value: "application/json")
+    response.appendBody(string: pack.returnSingleData(ID: id))
+    
+    print(id)
+    
+    response.completed()
+}
+// Adding a route to handle the POST PackageDetails add URL, with post body params
+routes.add(method: .post, uri: "/api/v1/PackageDetails", handler: {
 	request, response in
 
-	let people = People()
+	let PackageDetail = PackageDetails()
 
 	// Setting the response content type explicitly to application/json
 	response.setHeader(.contentType, value: "application/json")
 	// Adding a new "person", passing the complete HTTPRequest object to the function.
-	response.appendBody(string: people.add(request))
+	response.appendBody(string: pack.add(request))
 	// Signalling that the request is completed
 	response.completed()
 	}
 )
 
-// Adding a route to handle the POST people add via JSON
-routes.add(method: .post, uri: "/api/v1/people/json", handler: {
+// Adding a route to handle the POST PackageDetails add via JSON
+routes.add(method: .post, uri: "/api/v1/PackageDetails/json", handler: {
 	request, response in
 
-	let people = People()
+	let PackageDetail = PackageDetails()
 
 	// Setting the response content type explicitly to application/json
 	response.setHeader(.contentType, value: "application/json")
 	// Adding a new "person", passing the just the request's post body as a raw string to the function.
-	response.appendBody(string: people.add(request.postBodyString!))
+	response.appendBody(string: pack.add(request.postBodyString!))
 	// Signalling that the request is completed
 	response.completed()
 	}
@@ -92,7 +105,7 @@ routes.add(method: .post, uri: "/api/v1/people/json", handler: {
 server.addRoutes(routes)
 
 // Set a listen port of 8181
-server.serverPort = 8181
+server.serverPort = 8080
 
 do {
 	// Launch the HTTP server.

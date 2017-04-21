@@ -7,34 +7,34 @@
 //
 import PerfectLib
 
-class Person : JSONConvertibleObject {
+class Package : JSONConvertibleObject {
 
 	static let registerName = "person"
 
-	var firstName: String = ""
-	var lastName: String = ""
-	var email: String = ""
+	var packageID: String = ""
+	var from: String = ""
+	var to: String = ""
 
 	var fullName: String {
-		return "\(firstName) \(lastName)"
+		return "\(packageID) \(from)"
 	}
 
-	init(firstName: String, lastName: String, email: String) {
-		self.firstName	= firstName
-		self.lastName	= lastName
-		self.email		= email
+	init(packageID: String, from: String, to: String) {
+		self.packageID	= packageID
+		self.from	= from
+		self.to		= to
 	}
 
 	override public func setJSONValues(_ values: [String : Any]) {
-		self.firstName		= getJSONValue(named: "firstName", from: values, defaultValue: "")
-		self.lastName		= getJSONValue(named: "lastName", from: values, defaultValue: "")
-		self.email			= getJSONValue(named: "email", from: values, defaultValue: "")
+		self.packageID		= getJSONValue(named: "packageID", from: values, defaultValue: "")
+		self.from		= getJSONValue(named: "from", from: values, defaultValue: "")
+		self.to			= getJSONValue(named: "to", from: values, defaultValue: "")
 	}
 	override public func getJSONValues() -> [String : Any] {
 		return [
-			"firstName":firstName,
-			"lastName":lastName,
-			"email":email
+			"packageID":packageID,
+			"from":from,
+			"to":to
 		]
 	}
 

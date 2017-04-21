@@ -8,17 +8,17 @@
 
 import PerfectHTTP
 
-public class People {
-	// Container for array of type Person
-	var data = [Person]()
+public class PackageDetails {
+	// Container for array of type Package
+	var data = [Package]()
 
 	// Populating with a mock data object
 	init(){
 		data = [
-			Person(firstName: "Sarah", lastName: "Conner", email: "sarah.conner@mailinator.com"),
-			Person(firstName: "John", lastName: "Conner", email: "jane.smith@mailinator.com"),
-			Person(firstName: "Kyle", lastName: "Reese", email: "kyle.reese@mailinator.com"),
-			Person(firstName: "Marcus", lastName: "Wright", email: "marcus.wright@mailinator.com")
+			Package(packageID: "ID001", from: "London", to: "Paris"),
+			Package(packageID: "ID002", from: "London", to: "Chennai"),
+			Package(packageID: "ID003", from: "London", to: "Bombay"),
+			Package(packageID: "ID004", from: "London", to: "Watrap")
 		]
 	}
 
@@ -28,12 +28,12 @@ public class People {
 		return toString()
 	}
 
-	// Accepts the HTTPRequest object and adds a new Person from post params.
+	// Accepts the HTTPRequest object and adds a new Package from post params.
 	public func add(_ request: HTTPRequest) -> String {
-		let new = Person(
-			firstName: request.param(name: "firstName")!,
-			lastName: request.param(name: "lastName")!,
-			email: request.param(name: "email")!
+		let new = Package(
+			packageID: request.param(name: "packageID")!,
+			from: request.param(name: "from")!,
+			to: request.param(name: "to")!
 		)
 		data.append(new)
 		return toString()
@@ -43,10 +43,10 @@ public class People {
 	public func add(_ json: String) -> String {
 		do {
 			let incoming = try json.jsonDecode() as! [String: String]
-			let new = Person(
-				firstName: incoming["firstName"]!,
-				lastName: incoming["lastName"]!,
-				email: incoming["email"]!
+			let new = Package(
+				packageID: incoming["packageID"]!,
+				from: incoming["from"]!,
+				to: incoming["to"]!
 			)
 			data.append(new)
 		} catch {
@@ -69,6 +69,21 @@ public class People {
 		}
 		return "[\(out.joined(separator: ","))]"
 	}
+    func returnSingleData(ID: String) -> String{
+        var out = ""
+        
+        for m in self.data{
+            
+            if m.packageID == ID{
+                do {
+                    out += (try m.jsonEncodedString())
+                } catch {
+                    print(error)
+                }
+            }
+        }
+         return "[\(out)]"
+    }
 
 }
 
