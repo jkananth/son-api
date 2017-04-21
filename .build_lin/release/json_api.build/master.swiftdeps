@@ -1,0 +1,7 @@
+version: "Swift version 3.0.2 (swift-3.0.2-RELEASE)"
+options: "77aacae6be0176a335bd8188197287d1"
+build_time: [546032102, 232551000]
+inputs:
+  "/perfectbuild/Sources/main.swift": [9223372036854775807, 0]
+  "/perfectbuild/Sources/people.swift": [9223372036854775807, 0]
+  "/perfectbuild/Sources/person.swift": [9223372036854775807, 0]

@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PackageDetails"
+provides-nominal:
+- "C8json_api14PackageDetails"
+provides-member:
+- ["C8json_api14PackageDetails", ""]
+depends-top-level:
+- !private "=="
+- !private "StringLiteralType"
+- !private "print"
+- "PackageDetails"
+- !private "UnicodeScalarType"
+- "HTTPRequest"
+- !private "+="
+- "CastingPrecedence"
+- "Package"
+- "String"
+- "AssignmentPrecedence"
+- !private "Array"
+depends-member:
+- ["Ps9AnyObject", "Package"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonEncodedString"]
+- !private ["Ps9AnyObject", "packageID"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "toString"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "joined"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps22BidirectionalIndexable", "joined"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "joined"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "jsonDecode"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "joined"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonDecode"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "jsonDecode"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "joined"]
+- !private ["Ps17CustomReflectable", "jsonDecode"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "joined"]
+- !private ["Ps23CustomStringConvertible", "jsonDecode"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonDecode"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "joined"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "jsonDecode"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "jsonDecode"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "jsonDecode"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "jsonDecode"]
+- !private ["Sf", "deinit"]
+- ["P11PerfectHTTP11HTTPRequest", "deinit"]
+- !private ["P11PerfectHTTP11HTTPRequest", "param"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonDecode"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "joined"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "joined"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P10PerfectLib15JSONConvertible", "Element"]
+- !private ["P10PerfectLib15JSONConvertible", "Index"]
+- !private ["P10PerfectLib15JSONConvertible", "Iterator"]
+- !private ["P10PerfectLib15JSONConvertible", "SubSequence"]
+- !private ["P10PerfectLib15JSONConvertible", "_Element"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "append"]
+- ["P10PerfectLib15JSONConvertible", "deinit"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "joined"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonDecode"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonEncodedString"]
+- !private ["P10PerfectLib15JSONConvertible", "packageID"]
+- !private ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["C10PerfectLib21JSONConvertibleObject", "jsonEncodedString"]
+- !private ["C10PerfectLib21JSONConvertibleObject", "packageID"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "jsonDecode"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "jsonDecode"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "joined"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "joined"]
+- ["Sq", "deinit"]
+- ["C8json_api7Package", "deinit"]
+- !private ["C8json_api7Package", "init"]
+- !private ["C8json_api7Package", "jsonEncodedString"]
+- !private ["C8json_api7Package", "packageID"]
+- ["C8json_api14PackageDetails", "HTTPRequest"]
+- ["C8json_api14PackageDetails", "Package"]
+- ["C8json_api14PackageDetails", "String"]
+- ["C8json_api14PackageDetails", "add"]
+- ["C8json_api14PackageDetails", "data"]
+- ["C8json_api14PackageDetails", "deinit"]
+- ["C8json_api14PackageDetails", "init"]
+- ["C8json_api14PackageDetails", "list"]
+- !private ["C8json_api14PackageDetails", "print"]
+- ["C8json_api14PackageDetails", "returnSingleData"]
+- !private ["C8json_api14PackageDetails", "toString"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "joined"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps21RandomAccessIndexable", "joined"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "joined"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "joined"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "joined"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "jsonDecode"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "jsonDecode"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "jsonDecode"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "joined"]
+- !private ["P10Foundation12_CFBridgable", "Element"]
+- !private ["P10Foundation12_CFBridgable", "Index"]
+- !private ["P10Foundation12_CFBridgable", "Iterator"]
+- !private ["P10Foundation12_CFBridgable", "SubSequence"]
+- !private ["P10Foundation12_CFBridgable", "_Element"]
+- !private ["P10Foundation12_CFBridgable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation12_CFBridgable", "append"]
+- ["P10Foundation12_CFBridgable", "init"]
+- !private ["P10Foundation12_CFBridgable", "joined"]
+- !private ["P10Foundation12_CFBridgable", "jsonDecode"]
+- !private ["P10Foundation12_CFBridgable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "joined"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "jsonDecode"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "jsonDecode"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "jsonDecode"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "jsonDecode"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonDecode"]
+- !private ["P10Foundation12_NSBridgable", "Element"]
+- !private ["P10Foundation12_NSBridgable", "Index"]
+- !private ["P10Foundation12_NSBridgable", "Iterator"]
+- !private ["P10Foundation12_NSBridgable", "SubSequence"]
+- !private ["P10Foundation12_NSBridgable", "_Element"]
+- !private ["P10Foundation12_NSBridgable", "append"]
+- ["P10Foundation12_NSBridgable", "init"]
+- !private ["P10Foundation12_NSBridgable", "joined"]
+- !private ["P10Foundation12_NSBridgable", "jsonDecode"]
+- !private ["P10Foundation12_NSBridgable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "Element"]
+- !private ["P10Foundation17_ObjectBridgeable", "Index"]
+- !private ["P10Foundation17_ObjectBridgeable", "Iterator"]
+- !private ["P10Foundation17_ObjectBridgeable", "SubSequence"]
+- !private ["P10Foundation17_ObjectBridgeable", "_Element"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "append"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "joined"]
+- !private ["P10Foundation17_ObjectBridgeable", "jsonDecode"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Element"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Index"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Iterator"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "SubSequence"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_Element"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "append"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "joined"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "jsonDecode"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Sd"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "P11PerfectHTTP11HTTPRequest"
+- !private "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- "P10PerfectLib15JSONConvertible"
+- !private "C10PerfectLib21JSONConvertibleObject"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "Sq"
+- "C8json_api7Package"
+- "C8json_api14PackageDetails"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "Ps14_ArrayProtocol"
+- "P10Foundation12_CFBridgable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- "P10Foundation12_NSBridgable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/perfectbuild/.build_lin/debug/LinuxBridge.build/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectHTTP.swiftmodule"
+- "/perfectbuild/Packages/COpenSSL-2.0.3/COpenSSL/include/openssl.h"
+- "/perfectbuild/Packages/COpenSSL-2.0.3/COpenSSL/include/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/Packages/LinuxBridge-2.0.2/LinuxBridge/include/LinuxBridge.h"
+- "/perfectbuild/.build_lin/debug/PerfectLib.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectNet.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectThread.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectHTTPServer.swiftmodule"
+- "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/CHTTPParser/include/http_parser.h"
+- "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/CHTTPParser/include/module.modulemap"
+interface-hash: "563927585f51b8586af5abf07b647e16"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/Perfect_JSON_APITests.build/master.swiftdeps"
+  },
+  "/perfectbuild/Tests/Perfect-JSON-APITests/Perfect_JSON_APITests.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/Perfect_JSON_APITests.build/Perfect_JSON_APITests.d",
+    "object": "/perfectbuild/.build_lin/debug/Perfect_JSON_APITests.build/Perfect_JSON_APITests.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/Perfect_JSON_APITests.build/Perfect_JSON_APITests~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/Perfect_JSON_APITests.build/Perfect_JSON_APITests.swiftdeps"
+  }
+}

@@ -1,0 +1,13 @@
+version: "Swift version 3.0.2 (swift-3.0.2-RELEASE)"
+options: "8d0753aa59cfac173bc486141a554372"
+build_time: [546032338, 826400000]
+inputs:
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPFilter.swift": [546029805, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPHeaders.swift": [546029813, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPMethod.swift": [546029805, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPRequest.swift": [546029805, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPResponse.swift": [546029813, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/MimeReader.swift": [546029805, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/MimeType.swift": [546029814, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/Routing.swift": [546029805, 0]
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/StaticFileHandler.swift": [546029814, 0]

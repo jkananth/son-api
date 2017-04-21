@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/json_api.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/main.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/json_api.build/main.d",
+    "object": "/perfectbuild/.build_lin/debug/json_api.build/main.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/json_api.build/main~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/json_api.build/main.swiftdeps"
+  },
+  "/perfectbuild/Sources/people.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/json_api.build/people.d",
+    "object": "/perfectbuild/.build_lin/debug/json_api.build/people.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/json_api.build/people~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/json_api.build/people.swiftdeps"
+  },
+  "/perfectbuild/Sources/person.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/json_api.build/person.d",
+    "object": "/perfectbuild/.build_lin/debug/json_api.build/person.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/json_api.build/person~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/json_api.build/person.swiftdeps"
+  }
+}

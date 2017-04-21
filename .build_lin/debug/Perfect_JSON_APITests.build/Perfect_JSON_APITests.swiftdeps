@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Perfect_JSON_APITests"
+provides-nominal:
+- "C21Perfect_JSON_APITests21Perfect_JSON_APITests"
+provides-member:
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", ""]
+depends-top-level:
+- !private "StringLiteralType"
+- !private "XCTAssertEqual"
+- !private "Perfect_JSON_API"
+- "Perfect_JSON_APITests"
+- "String"
+- "XCTestCase"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "Perfect_JSON_API"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- ["Ps9AnyObject", "allTests"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "testExample"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P6XCTest8Listable", "Perfect_JSON_API"]
+- !private ["P6XCTest8Listable", "XCTAssertEqual"]
+- ["P6XCTest8Listable", "allTests"]
+- !private ["P6XCTest8Listable", "init"]
+- ["P6XCTest8Listable", "testExample"]
+- ["P6XCTest8Listable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "Perfect_JSON_API"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "Perfect_JSON_APITests"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "String"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "Void"]
+- !private ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "XCTAssertEqual"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "allTests"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "deinit"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "init"]
+- ["C21Perfect_JSON_APITests21Perfect_JSON_APITests", "testExample"]
+- !private ["P6XCTest24PerformanceMeterDelegate", "Perfect_JSON_API"]
+- !private ["P6XCTest24PerformanceMeterDelegate", "XCTAssertEqual"]
+- ["P6XCTest24PerformanceMeterDelegate", "allTests"]
+- !private ["P6XCTest24PerformanceMeterDelegate", "init"]
+- ["P6XCTest24PerformanceMeterDelegate", "testExample"]
+- ["P6XCTest24PerformanceMeterDelegate", ""]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C6XCTest6XCTest", "Perfect_JSON_API"]
+- ["C6XCTest6XCTest", "Perfect_JSON_APITests"]
+- ["C6XCTest6XCTest", "String"]
+- ["C6XCTest6XCTest", "Void"]
+- !private ["C6XCTest6XCTest", "XCTAssertEqual"]
+- ["C6XCTest6XCTest", "allTests"]
+- ["C6XCTest6XCTest", "testExample"]
+- !private ["C6XCTest10XCTestCase", "Perfect_JSON_API"]
+- ["C6XCTest10XCTestCase", "Perfect_JSON_APITests"]
+- ["C6XCTest10XCTestCase", "String"]
+- ["C6XCTest10XCTestCase", "Void"]
+- !private ["C6XCTest10XCTestCase", "XCTAssertEqual"]
+- ["C6XCTest10XCTestCase", "allTests"]
+- ["C6XCTest10XCTestCase", "deinit"]
+- ["C6XCTest10XCTestCase", "init"]
+- ["C6XCTest10XCTestCase", "testExample"]
+- ["C6XCTest10XCTestCase", ""]
+- !private ["P10Foundation12_CFBridgable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["P10Foundation12_NSBridgable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "P6XCTest8Listable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C21Perfect_JSON_APITests21Perfect_JSON_APITests"
+- "P6XCTest24PerformanceMeterDelegate"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C6XCTest6XCTest"
+- "C6XCTest10XCTestCase"
+- !private "P10Foundation12_CFBridgable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "P10Foundation12_NSBridgable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/perfectbuild/.build_lin/debug/LinuxBridge.build/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "6341b853f8b97059be57ee804016f0c2"

@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Package"
+provides-nominal:
+- "C8json_api7Package"
+provides-member:
+- ["C8json_api7Package", ""]
+depends-top-level:
+- "JSONConvertibleObject"
+- "Package"
+- "String"
+- !private "Dictionary"
+- "StringLiteralType"
+- "AssignmentPrecedence"
+- !private "IntegerLiteralType"
+- !private "UnicodeScalarType"
+- !private "FloatLiteralType"
+depends-member:
+- ["Ps9AnyObject", "from"]
+- ["Ps9AnyObject", "fullName"]
+- !private ["Ps9AnyObject", "getJSONValue"]
+- ["Ps9AnyObject", "getJSONValues"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "packageID"]
+- ["Ps9AnyObject", "registerName"]
+- ["Ps9AnyObject", "setJSONValues"]
+- ["Ps9AnyObject", "to"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P10PerfectLib15JSONConvertible", "Key"]
+- !private ["P10PerfectLib15JSONConvertible", "Value"]
+- ["P10PerfectLib15JSONConvertible", "from"]
+- ["P10PerfectLib15JSONConvertible", "fullName"]
+- !private ["P10PerfectLib15JSONConvertible", "getJSONValue"]
+- ["P10PerfectLib15JSONConvertible", "getJSONValues"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["P10PerfectLib15JSONConvertible", "packageID"]
+- ["P10PerfectLib15JSONConvertible", "registerName"]
+- ["P10PerfectLib15JSONConvertible", "setJSONValues"]
+- ["P10PerfectLib15JSONConvertible", "to"]
+- ["P10PerfectLib15JSONConvertible", ""]
+- ["C10PerfectLib21JSONConvertibleObject", "String"]
+- ["C10PerfectLib21JSONConvertibleObject", "deinit"]
+- ["C10PerfectLib21JSONConvertibleObject", "from"]
+- ["C10PerfectLib21JSONConvertibleObject", "fullName"]
+- !private ["C10PerfectLib21JSONConvertibleObject", "getJSONValue"]
+- ["C10PerfectLib21JSONConvertibleObject", "getJSONValues"]
+- ["C10PerfectLib21JSONConvertibleObject", "init"]
+- ["C10PerfectLib21JSONConvertibleObject", "packageID"]
+- ["C10PerfectLib21JSONConvertibleObject", "registerName"]
+- ["C10PerfectLib21JSONConvertibleObject", "setJSONValues"]
+- ["C10PerfectLib21JSONConvertibleObject", "to"]
+- ["C10PerfectLib21JSONConvertibleObject", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["Os5Never", "deinit"]
+- ["C8json_api7Package", "String"]
+- ["C8json_api7Package", "deinit"]
+- ["C8json_api7Package", "from"]
+- ["C8json_api7Package", "fullName"]
+- !private ["C8json_api7Package", "getJSONValue"]
+- ["C8json_api7Package", "getJSONValues"]
+- ["C8json_api7Package", "init"]
+- ["C8json_api7Package", "packageID"]
+- ["C8json_api7Package", "registerName"]
+- ["C8json_api7Package", "setJSONValues"]
+- ["C8json_api7Package", "to"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["P10Foundation12_CFBridgable", "Key"]
+- !private ["P10Foundation12_CFBridgable", "Value"]
+- ["P10Foundation12_CFBridgable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps9_Hashable", "init"]
+- !private ["P10Foundation12_NSBridgable", "Key"]
+- !private ["P10Foundation12_NSBridgable", "Value"]
+- ["P10Foundation12_NSBridgable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "Key"]
+- !private ["P10Foundation17_ObjectBridgeable", "Value"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Key"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Value"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "P10PerfectLib15JSONConvertible"
+- "C10PerfectLib21JSONConvertibleObject"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Os5Never"
+- "C8json_api7Package"
+- !private "Ps8Sequence"
+- "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "P10Foundation12_CFBridgable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- "P10Foundation12_NSBridgable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/perfectbuild/.build_lin/debug/LinuxBridge.build/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectHTTP.swiftmodule"
+- "/perfectbuild/Packages/COpenSSL-2.0.3/COpenSSL/include/openssl.h"
+- "/perfectbuild/Packages/COpenSSL-2.0.3/COpenSSL/include/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/Packages/LinuxBridge-2.0.2/LinuxBridge/include/LinuxBridge.h"
+- "/perfectbuild/.build_lin/debug/PerfectLib.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectNet.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectThread.swiftmodule"
+- "/perfectbuild/.build_lin/debug/PerfectHTTPServer.swiftmodule"
+- "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/CHTTPParser/include/http_parser.h"
+- "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/CHTTPParser/include/module.modulemap"
+interface-hash: "922cb26107a6d37848b5df9b96a91b70"

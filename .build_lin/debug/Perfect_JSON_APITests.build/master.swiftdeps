@@ -1,0 +1,5 @@
+version: "Swift version 3.0.2 (swift-3.0.2-RELEASE)"
+options: "621903d844edaa31d8855835c4429d76"
+build_time: [546032340, 579448000]
+inputs:
+  "/perfectbuild/Tests/Perfect-JSON-APITests/Perfect_JSON_APITests.swift": !dirty [546018946, 0]

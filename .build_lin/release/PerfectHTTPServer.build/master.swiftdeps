@@ -1,0 +1,11 @@
+version: "Swift version 3.0.2 (swift-3.0.2-RELEASE)"
+options: "01ca7f39af52ddb6c9d6d7d5d7ece6e4"
+build_time: [546032091, 118946000]
+inputs:
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HPACK.swift": [9223372036854775807, 0]
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HTTP11Request.swift": [9223372036854775807, 0]
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HTTP11Response.swift": [9223372036854775807, 0]
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HTTP2.swift": [9223372036854775807, 0]
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HTTPServer.swift": [9223372036854775807, 0]
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HTTPServerEx.swift": [9223372036854775807, 0]
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.9/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [9223372036854775807, 0]

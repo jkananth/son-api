@@ -1,0 +1,22 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build_lin/release/json_api.build/json_api.d",
+    "object": "/perfectbuild/.build_lin/release/json_api.build/json_api.o",
+    "swift-dependencies": "/perfectbuild/.build_lin/release/json_api.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/main.swift": {
+    "object": "/perfectbuild/.build_lin/release/json_api.build/main.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/release/json_api.build/main~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/release/json_api.build/main.swiftdeps"
+  },
+  "/perfectbuild/Sources/people.swift": {
+    "object": "/perfectbuild/.build_lin/release/json_api.build/people.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/release/json_api.build/people~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/release/json_api.build/people.swiftdeps"
+  },
+  "/perfectbuild/Sources/person.swift": {
+    "object": "/perfectbuild/.build_lin/release/json_api.build/person.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/release/json_api.build/person~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/release/json_api.build/person.swiftdeps"
+  }
+}
